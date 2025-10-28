@@ -36,7 +36,6 @@ O projeto foi desenvolvido como atividade prática, completando a implementaçã
 ## Diagrama UML
 O diagrama UML de classes ilustra a estrutura do sistema, incluindo atributos, métodos e relacionamentos. Ele foi gerado no estilo clássico com caixas para classes e setas para agregação.
 
-- **Visualização:** [Clique aqui para visualizar o diagrama gerado](https://www.plantuml.com/plantuml/png/SoWkIImgAStDuNBAJrBGjLDmpCbCJbMmKiX8pSd9vt98pKi1IW80) (link para uma renderização online baseada no código PlantUML fornecido anteriormente).
 - **Descrição:**
   - A classe `Conta` é independente e representa entidades individuais.
   - A classe `Banco` agrega múltiplas instâncias de `Conta` (relacionamento de agregação com multiplicidade 1..*, indicando que um banco pode gerenciar várias contas).
